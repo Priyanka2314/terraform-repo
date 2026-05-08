@@ -41,7 +41,7 @@ resource "aws_security_group" "main" {
     protocol    = "tcp"
   }
 }
-
+#create key-pair
 resource "tls_private_key" "terraform_private_key" {
   algorithm = "RSA"
   rsa_bits  = 4096
