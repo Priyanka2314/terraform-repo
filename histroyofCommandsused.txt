@@ -1,0 +1,70 @@
+Terraform & Related Commands with Purpose
+
+1. sudo yum install -y yum-utils
+   -> Installs yum utility tools required for managing repositories.
+
+2. sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
+   -> Adds HashiCorp repository to install Terraform.
+
+3. sudo yum -y install terraform
+   -> Installs Terraform on the system.
+
+4. terraform version
+   -> Displays installed Terraform version.
+
+5. sudo yum -y install git
+   -> Installs Git version control tool.
+
+6. git version
+   -> Displays installed Git version.
+
+7. mkdir demoterraform
+   -> Creates a new directory named demoterraform.
+
+8. cd demoterraform/
+   -> Navigates into demoterraform directory.
+
+9. vi demo.tf
+   -> Creates/edits Terraform configuration file.
+
+10. terraform init
+    -> Initializes Terraform project and downloads provider plugins.
+
+11. clear
+    -> Clears terminal screen.
+
+12. ls -la
+    -> Lists all files and directories with details.
+
+13. cd .terraform/
+    -> Opens Terraform hidden directory containing provider files.
+
+14. cd providers
+    -> Navigates to Terraform provider plugins directory.
+
+15. cd ~
+    -> Moves to home directory.
+
+16. pwd
+    -> Displays current working directory path.
+
+17. terraform validate
+    -> Validates Terraform configuration syntax and structure.
+
+18. terraform fmt
+    -> Formats Terraform configuration files properly.
+
+19. terraform plan
+    -> Shows execution plan before infrastructure changes are applied.
+
+20. terraform apply
+    -> Creates or updates infrastructure based on Terraform configuration.
+
+21. terraform show
+    -> Displays Terraform state or infrastructure details.
+
+22. cat terraform.tfstate
+    -> Displays contents of Terraform state file.
+
+23. terraform output
+    -> Shows output values defined in Terraform configuration.
